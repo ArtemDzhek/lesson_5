@@ -1,0 +1,159 @@
+body{
+   font-family: 'Exo', sans-serif;
+}
+
+@font-face {
+   font-family: "GreatVibes";
+   
+   src: url("../fonts/GreatVibes-Regular.woff2") format("woff2"),
+       url("../fonts/GreatVibes-Regular.woff") format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+/* +++++++++++++++++++++++ */
+
+
+.nav{
+   width: 500px;
+   background-color: rgb(171, 190, 194);
+   border: 1px solid ;
+   margin: 30px 350px;
+}
+.nav>ul{
+   color: rgb(24, 12, 161);
+   font-weight: 600;
+   font-size: 20px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+}
+.nav> h1{
+   color: rgb(122, 13, 13);
+   font-family: "GreatVibes";
+   font-weight: normal;
+   font-size: 50px;
+}
+.blok__text>img{
+   margin-left: 150px;
+
+}
+.blok__text>h2{
+   color: rgb(213, 15, 15);
+   font-family: "GreatVibes";
+   font-weight: normal;
+   font-size: 40px;
+   right: 20px;
+}
+.blok__text>img~p{
+   color: rgb(181, 24, 24);
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 150%;
+   text-align: center;
+   width: 300px;
+   margin: 40px 0 20px 450px;
+}
+.blok__text>p>span{
+   letter-spacing: 5px;
+   text-transform: uppercase;
+   text-shadow:  1px 1px 2px black, 0 0 14px red;
+}
+
+.blok__info>img{
+   margin-left: 150px;
+}
+.blok__info>h2{
+   text-transform: capitalize;
+   letter-spacing: 20px;
+   color: rgb(6, 162, 32);
+   font-family: "GreatVibes";
+   font-size: 40px;
+   padding: 30px;
+
+}
+.blok__info>h2~ul>li{
+   width: 350px;
+   margin-left: 200px;
+   padding: 10px;
+   background-color: rgb(133, 226, 135);
+   border-bottom: 1px solid #000;
+   color: rgb(137, 4, 135);
+   font-weight: 600;
+   font-size: 20px;
+}
+.blok__info>p{
+   text-transform: lowercase;
+   width: 400px;
+   margin: 40px 0 20px 250px;
+   font-weight: 600;
+   line-height: 200%;
+}
+.blok__info>p>span{
+   color: rgba(203, 135, 18, 0.531);
+   font-family: "GreatVibes";
+   font-size: 30px;
+   text-shadow:  -1px 1px 2px black, 0 0 12px red;
+}
+.blok__lorem>h2{
+   font-family:"GreatVibes";
+   color: rgb(27, 167, 192);
+   font-size: 40px;
+   margin: 30px;
+   letter-spacing: 10px;
+}
+.blok__lorem>h2~p{
+   color: rgb(190, 18, 18);
+   width: 500px;
+   padding: 40px;
+}
+.blok__lorem>h2~span{
+   color: rgb(0, 210, 39);
+   margin: 20px;
+   padding: 10px;
+   text-decoration: line-through;
+   font-family: "GreatVibes";
+   font-size: 25px;
+}
+
+.blok__lorem-big>ul{
+   width: 250px;
+   margin-left: 350px;
+}
+.blok__lorem-big>ul>li{
+   font-weight: 600;
+   text-transform: capitalize;
+   font-size: 20px;
+   color: rgb(151, 18, 18);
+   line-height: 150%;
+}
+
+
+.ol__list{
+   color: rgb(44, 38, 165);
+   margin-left: 20px;
+}
+.ol__list>li{
+   font-family: "GreatVibes";
+   font-size: 23px;
+   text-overflow: unset;
+   text-decoration: underline;
+}
+.blok__lorem-big>img{
+   margin: 50px 0 40px 150px;
+   
+}
+.blok__lorem-big>img~p{
+   color: rgb(129, 6, 101);
+   font-weight: 600;
+   width: 500px;
+   background-color: rgb(120, 171, 136);
+   padding: 20px;
+   margin-left: 200px;
+   border: 1px solid #000;
+}
+.blok__lorem-big>img~p>span{
+   font-family: "GreatVibes";
+   text-transform: uppercase;
+   color: rgb(193, 32, 32);
+   text-shadow: 1px 1px 2px black, 0 0 14px rgb(81, 104, 199);
+}
